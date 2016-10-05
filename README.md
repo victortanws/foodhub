@@ -25,7 +25,9 @@ In this project, we'll practice using Bootstrap.
    - [Media objects](http://getbootstrap.com/components/#media)
    - [Unstyled lists](http://getbootstrap.com/css/#unstyled)
 
-You will have to write some of your own custom CSS for this project in `additional_styles.css`. A hint for the full-width images:
+You will have to write some of your own custom CSS for this project in `additional_styles.css`.
+
+A hint for the full-width images: rather than including `<img>` elements in your HTML, instead use the images as the background for existing elements in CSS.
 
 ```
 .who-delivers {
