@@ -1,15 +1,80 @@
+
+
 body {
   font-family: "Montserrat";
-  font-size: 16px;
+  font-size: 14px;
+  /*padding-top: 150px;*/
+}
+
+body {
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
 }
 
 h1, h2, h3, h4 {
   font-weight: 700;
 }
 
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(246,52,64);
+}
+
+.navbar a {
+  color:white !important;
+}
+
 .navbar-brand {
   font-family: "Passion One";
   font-size: xx-large;
+}
+
+.navbar-default {
+    background-color: red;
+    border-color: #e7e7e7;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
+
+
+.who-delivers {
+      background: url(images/main-hero.jpg) no-repeat center center;
+      background-size: cover;
+      color: white;
+      height: 500px;
+      padding-top: 150px;
+}
+
+.padding-inside-bottom-md {
+    padding-bottom: 50px;
+}
+
+.padding-inside-top-sm {
+    padding-top: 20px;
+}
+.sound-bites, .why-order {
+    background-color: rgb(238, 238, 238);
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* My standard vertical spacing classes */
@@ -88,4 +153,105 @@ h1, h2, h3, h4 {
 
 .margin-below-bottom-xl {
   margin-bottom: 200px;
+}
+
+/*Footer classes*/
+
+footer {
+    background-color: rgb(50, 50, 170);
+}
+
+footer h4 {
+    font-size:16px;
+}
+
+footer li {
+  margin-bottom:10px;
+}
+
+/*Image sizing classes*/
+
+element.style {
+}
+.margin-below-bottom-sm {
+    margin-bottom: 20px;
+}
+.spotlight-image {
+    width: 200px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+element.style {
+}
+.user-image {
+    width: 50px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Download apps*/
+.download-apps {
+    background: url(images/download-hero.jpg) no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 500px;
+    padding-top: 150px;
+}
+
+/*Store badge*/
+.store-badge {
+  width: 200px;
+}
+
+/*Lists*/
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
 }
